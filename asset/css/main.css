@@ -371,11 +371,15 @@
 
 
 /* Footer */
-/* #footer{
-    height: 700px;
+#footer{
+    background-color: var(--white-color);
+    display: flex;
+    justify-content: center;
 }
 
 .footer__icon{
     font-size: 1.6rem;
     color: var(--black-color);
-} */
+    /* margin: auto; */
+    width: 700px;
+}
